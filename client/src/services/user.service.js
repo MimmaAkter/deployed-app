@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Read = async () => {
-    const URL = "/api/v1/user/read"
+    const URL = "/api/v1/user/Read"
     console.log(URL)
     const result = await axios.get(URL)
     //.then(res=>console.log(res.data));
